@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="../css/clock.css">
+</head>
+<body>
+    <div class=" container bg-dark">
+        <div class="row justify-content-center align-items-center  vh-100">
+            <div class="col-8 text-center">
+                
+                <div class="d-flex align-items-center justify-content-center flex-column border border-3 rounded-circle bg-dark mx-auto align-items-center border border-warning border-4" style="width: 300px;height: 300px;">
+                    <h4 class="text-white mb-4" id="date"></h4>
+                    <div class=" d-flex justify-content-around align-item-center w-100 bg-dark rounded-5 border-3 border border-dark shadow-lg ">
+                       <p class="small mt-3 text-white"><span id="hour" class="me-1 fs-4 fw-bold">23</span>Hour</p>
+                       <p class="small mt-3 text-white"><span id="min" class="me-1 fs-4 fw-bold">2</span>Min</p>
+                       <p class="small mt-3 text-white"><span id="second" class="me-1 fs-4 fw-bold">16</span>Second</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
